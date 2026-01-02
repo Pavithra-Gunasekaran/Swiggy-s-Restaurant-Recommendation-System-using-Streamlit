@@ -5,7 +5,7 @@ import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ---------------------------------------------------------
-# 1. MUST DEFINE THIS AT THE TOP (Matches preprocess.py)
+# 1. MUST DEFINE THIS AT THE TOP (Matches preprocesser.ipynb)
 # ---------------------------------------------------------
 def cuisine_tokenizer(text):
     return text.split(',')
